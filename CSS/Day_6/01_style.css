@@ -1,0 +1,16 @@
+/* Universal selector */
+
+* {
+    font-family: Arial;
+}
+
+/* Element Selector */
+
+h1, h3 {
+   color: #b92b27; 
+}
+
+#login {
+    color: #b92b27;
+    background: #fff;
+}
