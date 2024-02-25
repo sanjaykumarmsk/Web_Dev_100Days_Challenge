@@ -1,0 +1,25 @@
+* {
+  font-family: Courier New;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#login, #register {
+    background-color: aqua;
+}
+
+#searchbtn {
+    color: white;
+    background: black;
+}
+
+#myId p{
+    color: green;
+}
+
+button:hover {
+   background-color: blue;
+   color: rgb(236, 14, 14);
+}

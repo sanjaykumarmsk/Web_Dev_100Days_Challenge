@@ -14,3 +14,43 @@ h1, h3 {
     color: #b92b27;
     background: #fff;
 }
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h3:hover {
+    text-decoration: none;
+    color: rgb(39, 255, 11);
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+input[type="radio"]:checked + label {
+    color:red;
+    font-weight: bold;
+}
+
+/* div:nth-of-type(1n){
+    background-color: yellow;
+} */
+
+h1::first-letter {
+    color: black;
+}
+
+p::first-line {
+    color: yellow;
+}
+
+p::selection {
+    background-color: rgb(88, 214, 88);
+}
