@@ -1,0 +1,20 @@
+.container {
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    flex-basis: 40px;
+    flex-grow: 40px;
+    flex-shrink: 2;
+}
+
+.container div {
+    height: 50px;
+    width: 60px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    font-size: 1.5em;
+    flex: 1 1 20px;
+}
