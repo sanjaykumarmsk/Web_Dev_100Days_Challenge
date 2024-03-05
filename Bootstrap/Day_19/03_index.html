@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Demo</h1>
+      <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="email" class="form-label">Email Address : </label>
+            <input
+              type="email"
+              placeholder="email address"
+              class="form-control"
+              id="email"
+            />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="password" class="form-label">Password : </label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="password"
+              id="password"
+            />
+          </div>
+
+      </div>
+      <div class="mb-3">
+        <select class="form-select">
+          <option selected>Choose your city</option>
+          <option value="1">Mumbai</option>
+          <option value="2">Kolakata</option>
+          <option value="3">Goa</option>
+        </select>
+      </div>
+      <div class="normal mb-3">
+        <input type="checkbox" id="agree" />
+        <label for="agree">Agree</label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" id="agreebs" class="form-check-input" />
+        <label for="agreebs" class="form-check-label">Agree</label>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="radio" id="radiobs" class="form-check-input" />
+        <label for="radiobs" class="form-check-label">Yes/No</label>
+      </div>
+      <div class="form-check form-switch mb-3">
+        <input
+          type="checkbox"
+          role="switch"
+          class="form-check-input"
+          id="flexSwitchCheckDefault"
+        />
+        <label for="flexSwitchCheckDefault" class="form-check-label"
+          >Default switch checkbox input</label
+        >
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
