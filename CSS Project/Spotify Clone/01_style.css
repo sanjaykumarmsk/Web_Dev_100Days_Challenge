@@ -3,11 +3,12 @@
     margin: 0;
     /* background-color: #000; */
     color: #fff;
-    overflow: hidden;
+  
 }
 
 body {
     background-color: black;
+    overflow: hidden;
 }
 
 /* vh -> viewport height */
@@ -259,7 +260,7 @@ a {
 }
 
 .progress-bar {
-    width: 70%;
+    width: 60%;
     appearance: none;
     background-color: transparent;
     cursor: pointer;
@@ -277,7 +278,8 @@ a {
     width: 1rem;
     background-color: #1bd760;
     border-radius: 50%;
-    /* margin-top: -6px; */
+    margin-top: -6px;
+    
 }
 
 .album {
@@ -303,12 +305,12 @@ a {
 }
 
 .one {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
 .two {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     margin-top: 0.5rem;
 }
 
@@ -326,4 +328,27 @@ a {
 
 input {
     cursor: pointer;
+}
+
+.progress-bar-vol {
+    width: 37%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar-vol::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar-vol::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+    
 }
