@@ -1,9 +1,12 @@
 {
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "method-override": "^3.0.0",
     "mysql": "^2.18.1",
-    "mysql2": "^3.9.7"
+    "mysql2": "^3.9.7",
+    "uuid": "^9.0.1"
   },
   "name": "nodejs_with_sql",
   "version": "1.0.0",
