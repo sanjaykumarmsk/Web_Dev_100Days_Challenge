@@ -9,7 +9,13 @@
   "author": "Sanjay Kumar",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
+    "express.js": "^1.0.0",
     "figlet": "^1.7.0",
-    "give-me-a-joke": "^0.5.1"
-  }
+    "give-me-a-joke": "^0.5.1",
+    "init": "^0.1.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.4.0"
+  },
+  "keywords": []
 }
